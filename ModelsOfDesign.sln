@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-面向对象之继承", "ConsoleApp1\001-面向对象之继承.csproj", "{437840D7-4047-492C-A5CA-1BEE4CB3B46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{C46E46F4-35FD-4951-9300-12C8407D9D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-集合", "002-集合\002-集合.csproj", "{E06FCEAF-B2D9-4690-9032-5317A83BFA77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-观察者模式1-抽象类", "003-观察者模式1\003-观察者模式1-抽象类.csproj", "{5CF441B3-DBDA-412A-9FDC-DCE76CF355B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-观察者模式2-事件委托", "003-观察者模式2\003-观察者模式2-事件委托.csproj", "{C1AD8424-09D6-41B6-BCD1-DF1AA0F0D696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-观察者模式3-解耦订阅", "004-观察者模式3-解耦订阅\003-观察者模式3-解耦订阅.csproj", "{FE214B19-32EF-4423-A3E0-BBBD789DB7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-单例模式", "004-单例模式\004-单例模式.csproj", "{C1AF4D12-4536-4B84-8098-E5D46CD74721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437840D7-4047-492C-A5CA-1BEE4CB3B46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437840D7-4047-492C-A5CA-1BEE4CB3B46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437840D7-4047-492C-A5CA-1BEE4CB3B46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437840D7-4047-492C-A5CA-1BEE4CB3B46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46E46F4-35FD-4951-9300-12C8407D9D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46E46F4-35FD-4951-9300-12C8407D9D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46E46F4-35FD-4951-9300-12C8407D9D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46E46F4-35FD-4951-9300-12C8407D9D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06FCEAF-B2D9-4690-9032-5317A83BFA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06FCEAF-B2D9-4690-9032-5317A83BFA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06FCEAF-B2D9-4690-9032-5317A83BFA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06FCEAF-B2D9-4690-9032-5317A83BFA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF441B3-DBDA-412A-9FDC-DCE76CF355B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF441B3-DBDA-412A-9FDC-DCE76CF355B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF441B3-DBDA-412A-9FDC-DCE76CF355B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF441B3-DBDA-412A-9FDC-DCE76CF355B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AD8424-09D6-41B6-BCD1-DF1AA0F0D696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AD8424-09D6-41B6-BCD1-DF1AA0F0D696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AD8424-09D6-41B6-BCD1-DF1AA0F0D696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AD8424-09D6-41B6-BCD1-DF1AA0F0D696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE214B19-32EF-4423-A3E0-BBBD789DB7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE214B19-32EF-4423-A3E0-BBBD789DB7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE214B19-32EF-4423-A3E0-BBBD789DB7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE214B19-32EF-4423-A3E0-BBBD789DB7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07ADAE52-649D-439E-9B57-B2547E1689B2}
+	EndGlobalSection
+EndGlobal
