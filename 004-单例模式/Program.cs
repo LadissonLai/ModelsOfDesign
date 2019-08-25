@@ -11,9 +11,11 @@ namespace _004_单例模式
         static void Main(string[] args)
         {
             CustomUIForm Instance = CustomUIForm.Create();
-            Instance.OpenUIForm("/Assets/UI");
+            //Instance.OpenUIForm("/Assets/UI");
+            CustomUIForm.Instance.OpenUIForm("lingyizhong");
             Console.ReadKey();
 
         }
+
     }
 }
