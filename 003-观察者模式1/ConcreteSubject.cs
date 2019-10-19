@@ -19,6 +19,7 @@ namespace _003_观察者模式1
             set
             {
                 subjectState = value;
+                
             }
         }
 
