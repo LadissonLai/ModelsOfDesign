@@ -10,9 +10,11 @@ namespace _004_单例模式
     {
         static void Main(string[] args)
         {
+            //第一种 单例模式
             CustomUIForm Instance = CustomUIForm.Create();
-            //Instance.OpenUIForm("/Assets/UI");
-            CustomUIForm.Instance.OpenUIForm("lingyizhong");
+            CustomUIForm.Instance.OpenUIForm("----第一种----");
+
+            CustomUIForm2.Instance.OpenUIForm("----第二种----");
             Console.ReadKey();
 
         }

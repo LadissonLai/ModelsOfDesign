@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace _004_单例模式
 {
-    class CustomUIForm
+    class CustomUIForm2
     {
-        public static CustomUIForm Instance;
-        public static CustomUIForm Create()
+        public static CustomUIForm2 Instance
         {
-            if (Instance == null)
+            get
             {
-                Instance = new CustomUIForm();
+                return new CustomUIForm2();
             }
-            return Instance;
         }
 
-        //私有构造方法
-        private CustomUIForm()
+        private CustomUIForm2()
         {
 
         }
@@ -28,8 +25,5 @@ namespace _004_单例模式
         {
             Console.WriteLine($"在路径 {path} 中打开UI");
         }
-
-
-        
     }
 }
