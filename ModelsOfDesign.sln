@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-观察者模式3-解耦
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-单例模式", "004-单例模式\004-单例模式.csproj", "{C1AF4D12-4536-4B84-8098-E5D46CD74721}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-第二章-策略模式", "005-第二章-策略模式\005-第二章-策略模式.csproj", "{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1AF4D12-4536-4B84-8098-E5D46CD74721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
