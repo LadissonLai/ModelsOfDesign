@@ -14,6 +14,7 @@ namespace _005_第二章_策略模式
         {
             //ApplicationException
             Application.Run(new Form1());
+
         }
     }
 }
