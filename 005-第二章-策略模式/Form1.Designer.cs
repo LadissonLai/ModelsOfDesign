@@ -38,6 +38,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.labelTotal = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cbxType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -78,7 +80,7 @@
             this.labelPrice.AutoSize = true;
             this.labelPrice.BackColor = System.Drawing.Color.Maroon;
             this.labelPrice.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelPrice.Location = new System.Drawing.Point(154, 82);
+            this.labelPrice.Location = new System.Drawing.Point(154, 67);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(54, 22);
             this.labelPrice.TabIndex = 4;
@@ -86,17 +88,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(264, 82);
+            this.textBox1.Location = new System.Drawing.Point(315, 70);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
+            this.textBox1.Size = new System.Drawing.Size(122, 25);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "0.00";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(264, 151);
+            this.textBox2.Location = new System.Drawing.Point(315, 125);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
+            this.textBox2.Size = new System.Drawing.Size(122, 25);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "0";
             // 
@@ -105,7 +107,7 @@
             this.labelNum.AutoSize = true;
             this.labelNum.BackColor = System.Drawing.Color.Maroon;
             this.labelNum.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelNum.Location = new System.Drawing.Point(154, 151);
+            this.labelNum.Location = new System.Drawing.Point(154, 128);
             this.labelNum.Name = "labelNum";
             this.labelNum.Size = new System.Drawing.Size(54, 22);
             this.labelNum.TabIndex = 7;
@@ -115,7 +117,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(158, 213);
+            this.listBox1.Location = new System.Drawing.Point(158, 234);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(407, 94);
             this.listBox1.TabIndex = 8;
@@ -141,11 +143,34 @@
             this.textBox3.Text = "0.00";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Maroon;
+            this.label1.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(154, 184);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 22);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "类型";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // cbxType
+            // 
+            this.cbxType.FormattingEnabled = true;
+            this.cbxType.Location = new System.Drawing.Point(315, 183);
+            this.cbxType.Name = "cbxType";
+            this.cbxType.Size = new System.Drawing.Size(122, 23);
+            this.cbxType.TabIndex = 12;
+            this.cbxType.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(785, 429);
+            this.Controls.Add(this.cbxType);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.labelTotal);
             this.Controls.Add(this.listBox1);
@@ -177,5 +202,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label labelTotal;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cbxType;
     }
 }
