@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-面向对象之继承", "ConsoleApp1\001-面向对象之继承.csproj", "{437840D7-4047-492C-A5CA-1BEE4CB3B46A}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-单例模式", "004-单例模式\004-单例模式.csproj", "{C1AF4D12-4536-4B84-8098-E5D46CD74721}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-第二章-策略模式", "005-第二章-策略模式\005-第二章-策略模式.csproj", "{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-第六章-装饰模式", "006-第六章-装饰模式\006-第六章-装饰模式.csproj", "{DCE65431-0E92-4D66-8DB0-50F193F39659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7D7D9C-9258-48BA-BB50-61B7400D83AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE65431-0E92-4D66-8DB0-50F193F39659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE65431-0E92-4D66-8DB0-50F193F39659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE65431-0E92-4D66-8DB0-50F193F39659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE65431-0E92-4D66-8DB0-50F193F39659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
