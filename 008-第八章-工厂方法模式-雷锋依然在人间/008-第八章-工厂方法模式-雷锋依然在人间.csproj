@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_008_第八章_工厂方法模式_雷锋依然在人间</RootNamespace>
+  </PropertyGroup>
+
+</Project>
