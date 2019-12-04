@@ -12,7 +12,7 @@ namespace _004_单例模式
         {
             //第一种 单例模式
             CustomUIForm Instance = CustomUIForm.Create();
-            CustomUIForm.Instance.OpenUIForm("----第一种----");
+            Instance.OpenUIForm("----第一种----");
 
             CustomUIForm2.Instance.OpenUIForm("----第二种----");
             Console.ReadKey();

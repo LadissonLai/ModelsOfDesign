@@ -8,7 +8,7 @@ namespace _004_单例模式
 {
     class CustomUIForm
     {
-        public static CustomUIForm Instance;
+        private static CustomUIForm Instance;
         public static CustomUIForm Create()
         {
             if (Instance == null)

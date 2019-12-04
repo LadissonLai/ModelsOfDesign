@@ -8,11 +8,17 @@ namespace _004_单例模式
 {
     class CustomUIForm2
     {
+        private static CustomUIForm2 instance;
+
         public static CustomUIForm2 Instance
         {
             get
             {
-                return new CustomUIForm2();
+                if(instance == null)
+                {
+                    instance = new CustomUIForm2();
+                }
+                return instance;
             }
         }
 
