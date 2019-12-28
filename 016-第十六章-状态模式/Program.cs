@@ -10,6 +10,7 @@ namespace _016_第十六章_状态模式
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
