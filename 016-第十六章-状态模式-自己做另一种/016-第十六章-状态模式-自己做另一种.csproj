@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58E91FC5-8997-4F3E-B67C-1D8092C7F0F4}</ProjectGuid>
+    <ProjectGuid>{C39C75E5-17E6-4FF2-BCAE-2FE189E62DD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_016_第十六章_状态模式</RootNamespace>
-    <AssemblyName>016-第十六章-状态模式</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>_016_第十六章_状态模式_自己做另一种</RootNamespace>
+    <AssemblyName>016-第十六章-状态模式-自己做另一种</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -43,20 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllStates\AfternoonState.cs" />
-    <Compile Include="AllStates\EveningState.cs" />
-    <Compile Include="AllStates\ForenoonState.cs" />
-    <Compile Include="AllStates\NoonState.cs" />
-    <Compile Include="AllStates\SleepingState.cs" />
-    <Compile Include="AllStates\ForceOffDutyState.cs" />
+    <Compile Include="AllStates\EndState.cs" />
+    <Compile Include="FsmState.cs" />
+    <Compile Include="FsmSystem.cs" />
+    <Compile Include="AllStates\BeginState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AllStates\RelaxState.cs" />
-    <Compile Include="State.cs" />
-    <Compile Include="Work.cs" />
+    <Compile Include="AllStates\RunningState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
