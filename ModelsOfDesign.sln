@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-面向对象之继承", "ConsoleApp1\001-面向对象之继承.csproj", "{437840D7-4047-492C-A5CA-1BEE4CB3B46A}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016-第十六章-状态模式", "016-第十六章-状态模式\016-第十六章-状态模式.csproj", "{58E91FC5-8997-4F3E-B67C-1D8092C7F0F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016-第十六章-状态模式-自己做另一种", "016-第十六章-状态模式-自己做另一种\016-第十六章-状态模式-自己做另一种.csproj", "{C39C75E5-17E6-4FF2-BCAE-2FE189E62DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-第九章-原型模式", "009-第九章-原型模式\009-第九章-原型模式.csproj", "{CCBEBF6E-007A-434A-9868-232979004292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{C39C75E5-17E6-4FF2-BCAE-2FE189E62DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C39C75E5-17E6-4FF2-BCAE-2FE189E62DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C39C75E5-17E6-4FF2-BCAE-2FE189E62DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBEBF6E-007A-434A-9868-232979004292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBEBF6E-007A-434A-9868-232979004292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBEBF6E-007A-434A-9868-232979004292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBEBF6E-007A-434A-9868-232979004292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
