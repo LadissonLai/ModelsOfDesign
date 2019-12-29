@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016-第十六章-状态模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-第九章-原型模式", "009-第九章-原型模式\009-第九章-原型模式.csproj", "{CCBEBF6E-007A-434A-9868-232979004292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-第十章-模板方法模式", "010-第十章-模板方法模式\010-第十章-模板方法模式.csproj", "{3964B8AF-7E3B-4393-A25B-0D79D69914DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014-第十四章-观察者模式", "014-第十四章-观察者模式\014-第十四章-观察者模式.csproj", "{DBFAF772-FAD7-4DA6-99C3-A86C2A3A2496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{CCBEBF6E-007A-434A-9868-232979004292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBEBF6E-007A-434A-9868-232979004292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBEBF6E-007A-434A-9868-232979004292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3964B8AF-7E3B-4393-A25B-0D79D69914DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3964B8AF-7E3B-4393-A25B-0D79D69914DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3964B8AF-7E3B-4393-A25B-0D79D69914DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3964B8AF-7E3B-4393-A25B-0D79D69914DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFAF772-FAD7-4DA6-99C3-A86C2A3A2496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFAF772-FAD7-4DA6-99C3-A86C2A3A2496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFAF772-FAD7-4DA6-99C3-A86C2A3A2496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFAF772-FAD7-4DA6-99C3-A86C2A3A2496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
