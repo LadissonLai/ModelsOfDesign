@@ -16,7 +16,7 @@ namespace _014_第十四章_观察者模式
             }
         }
 
-        public string TeacherName { get; set; } = "亲在修";
+        public string TeacherName { get; set; } = "杨幂";
 
     }
 }
