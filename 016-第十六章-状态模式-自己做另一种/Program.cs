@@ -25,6 +25,7 @@ namespace _016_第十六章_状态模式_自己做另一种
             fsm.ChangeState(begin);
 
             Console.ReadKey();
+            
         }
     }
 }
