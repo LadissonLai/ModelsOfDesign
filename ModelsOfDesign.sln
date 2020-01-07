@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013-第十三章-建造者�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100-Typeof测试", "100-Typeof测试\100-Typeof测试.csproj", "{A4C6D9C8-447B-4B2B-B874-26EDE8AC32A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102-子类转父类调子类方法", "102-子类转父类调子类方法\102-子类转父类调子类方法.csproj", "{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{A4C6D9C8-447B-4B2B-B874-26EDE8AC32A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C6D9C8-447B-4B2B-B874-26EDE8AC32A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C6D9C8-447B-4B2B-B874-26EDE8AC32A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
