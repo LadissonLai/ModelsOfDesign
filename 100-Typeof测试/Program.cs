@@ -11,6 +11,12 @@ namespace _100_Typeof测试
         static void Main(string[] args)
         {
             Type test = typeof(Test);  //变量不允许使用typeof，变量只能用GetType
+            string className = test.Namespace + "." + test.Name;
+            Console.WriteLine(className);
+            Type newType = Type.GetType(className);
+            Test activateTest = (Test)Activator.CreateInstance(newType);
+            activateTest.Name = "特殊方法创建的类";
+            Console.WriteLine(activateTest.Name);
             Test instance01 = new Test();
             Test instance02 = new Test();
             Console.WriteLine(instance01.GetType());   
@@ -19,7 +25,5 @@ namespace _100_Typeof测试
 
             Console.ReadKey();
         }
-
-
     }
 }

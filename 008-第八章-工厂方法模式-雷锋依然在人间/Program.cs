@@ -23,6 +23,8 @@ namespace _008_第八章_工厂方法模式_雷锋依然在人间
             double ret2 = op2.GetResult();
             Console.WriteLine("工厂方法模式运算结果是：" + ret2);
 
+            //抽象工厂模式
+
             Console.ReadKey();
         }
     }

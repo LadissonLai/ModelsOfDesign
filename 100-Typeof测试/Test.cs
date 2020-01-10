@@ -19,5 +19,10 @@ namespace _100_Typeof测试
         {
 
         }
+
+        public Test()
+        {
+            Console.WriteLine("正在实例化Test类");
+        }
     }
 }
