@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-面向对象之继承", "ConsoleApp1\001-面向对象之继承.csproj", "{437840D7-4047-492C-A5CA-1BEE4CB3B46A}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102-子类转父类调子类方法", "102-子类转父类调子类方法\102-子类转父类调子类方法.csproj", "{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015-抽象工厂模式", "015-抽象工厂模式\015-抽象工厂模式.csproj", "{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103-static关键字测试", "103-static关键字测试\103-static关键字测试.csproj", "{CE114244-4130-4E85-8BA3-5708C6C15786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE114244-4130-4E85-8BA3-5708C6C15786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE114244-4130-4E85-8BA3-5708C6C15786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE114244-4130-4E85-8BA3-5708C6C15786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE114244-4130-4E85-8BA3-5708C6C15786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
