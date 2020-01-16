@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018-第十八章-备忘录�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019-第十九章-组合模式", "019-第十九章-组合模式\019-第十九章-组合模式.csproj", "{12C043CB-5882-4875-882D-FE1D8ECE8E8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105-反射学习", "105-反射学习\105-反射学习.csproj", "{8B7D3C59-F4B9-4C51-AA65-EDEE76EAB95E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{12C043CB-5882-4875-882D-FE1D8ECE8E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C043CB-5882-4875-882D-FE1D8ECE8E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C043CB-5882-4875-882D-FE1D8ECE8E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7D3C59-F4B9-4C51-AA65-EDEE76EAB95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7D3C59-F4B9-4C51-AA65-EDEE76EAB95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7D3C59-F4B9-4C51-AA65-EDEE76EAB95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7D3C59-F4B9-4C51-AA65-EDEE76EAB95E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
