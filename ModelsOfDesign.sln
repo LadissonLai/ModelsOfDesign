@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100-Typeof测试", "100-Typ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102-子类转父类调子类方法", "102-子类转父类调子类方法\102-子类转父类调子类方法.csproj", "{E26B2C76-FDA0-415C-BABF-C79EECD6F20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015-抽象工厂模式", "015-抽象工厂模式\015-抽象工厂模式.csproj", "{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015-第十五章-抽象工厂模式", "015-抽象工厂模式\015-第十五章-抽象工厂模式.csproj", "{63A620D3-F9D9-4836-9722-4C27DD5E3D7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103-static关键字测试", "103-static关键字测试\103-static关键字测试.csproj", "{CE114244-4130-4E85-8BA3-5708C6C15786}"
 EndProject
