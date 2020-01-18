@@ -10,7 +10,7 @@ namespace _103_static关键字测试
     {
         static void Main(string[] args)
         {
-            int Class1Id = TestClass.Id;
+            int Class1Id = TestClass.Id; //虽然main函数是入口，但是先执行了TestClass 中static
             
             TestClass class2 = new TestClass();
             int Class2Id = class2.ClassID;
