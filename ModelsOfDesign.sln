@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105-反射学习", "105-反
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020-第二十章-迭代器模式", "120-第二十章-迭代器模式\020-第二十章-迭代器模式.csproj", "{816E4877-9C47-4B84-AECC-E17FD7D065B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "106-类型转换测试", "106-类型转换测试\106-类型转换测试.csproj", "{40F8ECC2-4965-403C-9325-9FB3EB55FDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{5A70745E-515B-4F4C-9EC5-D18C79D5FC01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{816E4877-9C47-4B84-AECC-E17FD7D065B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816E4877-9C47-4B84-AECC-E17FD7D065B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816E4877-9C47-4B84-AECC-E17FD7D065B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F8ECC2-4965-403C-9325-9FB3EB55FDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F8ECC2-4965-403C-9325-9FB3EB55FDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F8ECC2-4965-403C-9325-9FB3EB55FDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F8ECC2-4965-403C-9325-9FB3EB55FDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A70745E-515B-4F4C-9EC5-D18C79D5FC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A70745E-515B-4F4C-9EC5-D18C79D5FC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A70745E-515B-4F4C-9EC5-D18C79D5FC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A70745E-515B-4F4C-9EC5-D18C79D5FC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
